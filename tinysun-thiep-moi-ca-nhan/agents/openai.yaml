@@ -1,0 +1,6 @@
+interface:
+  display_name: "TinySun · Thiệp mời cá nhân hóa"
+  short_description: "Thiệp cá nhân, phối đồ đa dạng và chân dung studio"
+  default_prompt: "Dùng $tinysun-thiep-moi-ca-nhan kiểm ảnh nguồn, phối trang phục nam/nữ đa dạng hợp sự kiện bằng các skill ảnh sẵn có, tạo chân dung studio giữ đúng người và mẫu thiệp; ảnh mờ thì xin lại, không tự đổi đồ khi chỉ sửa tên hoặc da."
+policy:
+  allow_implicit_invocation: true

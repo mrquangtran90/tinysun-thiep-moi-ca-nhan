@@ -1,0 +1,25 @@
+{
+  "preset_id": "tinysun-vietbaby-hanoi-2026-dark-gold-v2",
+  "source_verified_on": "2026-09-26",
+  "use_only_when": "User selects this design or references the Vietbaby invitation made in this conversation. Do not assume it for other events.",
+  "template_relative_to_pcloud_output_root": "outputs/TinySun/Thiep moi Vietbaby ca nhan hoa 26.9.26/Thiep-moi-TinySun-Vietbaby-2026-mau-thu-v2.svg",
+  "preview_relative_to_pcloud_output_root": "outputs/TinySun/Thiep moi Vietbaby ca nhan hoa 26.9.26/preview-720px-v2.png",
+  "canvas": {"width": 1440, "height": 2000},
+  "portrait_layer_id": "portrait-background",
+  "portrait_layer_includes_background": true,
+  "old_person_is_not_identity_reference": true,
+  "name_field_id": "guest-name",
+  "name_field_safe_width_px": 680,
+  "default_name": "QUÝ ĐỐI TÁC",
+  "protected_event": {
+    "company": "CÔNG TY CỔ PHẦN TINYSUN GROUP",
+    "event": "VIETBABY FAIR HÀ NỘI 2026",
+    "dates": "15–18/10/2026",
+    "booth": "F2",
+    "hall": "Hall 3",
+    "venue": "Trung tâm Triển lãm Việt Nam (VEC), Đông Anh, Hà Nội"
+  },
+  "official_source": "https://www.facebook.com/story.php?story_fbid=1482623017248878&id=100065035800317",
+  "user_provided_source": "https://www.facebook.com/share/p/1M6kyAYtCf/?mibextid=wwXIfr",
+  "expiry_rule": "After 2026-10-18 treat as an archived template, not an active event invitation. Reconfirm current event facts before new-event reuse."
+}
