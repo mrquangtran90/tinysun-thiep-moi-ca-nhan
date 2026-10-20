@@ -80,29 +80,46 @@ Nguồn dữ liệu WebSearch thực tế có được trong T4/T6: Metric (doan
 
 | Skill | Thay đổi chính | Kích thước |
 |---|---|---|
-| amee-dispatcher | Bản đồ 5 agent + 4 công cụ; chuỗi kết hợp; quy tắc làm ngay/hỏi; kiểm tra ngày; vượt quỹ MKT | 14,7 KB |
-| ceo-agent | Gọi nghien-cuu khi cần; fallback giả định; quy tắc chọn framework khi chồng lấn; mục "số liệu cần Sếp" | 12,4 KB |
-| content-agent | Agent chủ của 4 skill công cụ; quy tắc claim; fanpage tập đoàn vs nhãn; fact-sheet | 13,4 KB |
-| ke-hoach-agent | Gộp 6 framework từ `ke-hoach`; 3 kịch bản bắt buộc; checklist; xử lý vượt quỹ | 15,4 KB |
-| bao-cao-agent | Fallback không dữ liệu; quy ước tìm Gmail/Drive; ngưỡng đèn | 12,9 KB |
-| nghien-cuu-thi-truong | Có route từ dispatcher; giới hạn công cụ; mục "không tìm được"; chuyển ceo-agent sau nghiên cứu | 14,2 KB |
+| amee-dispatcher | Bản đồ 5 agent + 4 công cụ; chuỗi kết hợp; quy tắc làm ngay/hỏi; kiểm tra ngày; vượt quỹ MKT | 17,1 KB |
+| ceo-agent | Gọi nghien-cuu khi cần; fallback giả định; quy tắc chọn framework khi chồng lấn; mục "số liệu cần Sếp" | 14,6 KB |
+| content-agent | Agent chủ của 4 skill công cụ; quy tắc claim; fanpage tập đoàn vs nhãn; fact-sheet | 15,4 KB |
+| ke-hoach-agent | Gộp 6 framework từ `ke-hoach`; 3 kịch bản bắt buộc; bản rút gọn/đầy đủ; checklist; xử lý vượt quỹ | 17,9 KB |
+| bao-cao-agent | Fallback không dữ liệu; quy ước tìm Gmail/Drive; ngưỡng đèn | 14,9 KB |
+| nghien-cuu-thi-truong | Có route từ dispatcher; giới hạn công cụ; mục "không tìm được"; chuyển ceo-agent sau nghiên cứu | 16,5 KB |
 | tiktok-script-writer | Gỡ Maya/Alex; 6 hook hợp lệ; CTA giỏ hàng vàng; khung 30s đầy đủ | 5,0 KB |
 | viral-post-writer | Gỡ Maya; ví dụ mẹ & bé; checklist claim | 3,6 KB |
 | lead-magnet-builder | Gỡ Ace; Zalo/SĐT là kênh chính; ví dụ đúng ngành | 3,8 KB |
 | content-pillar-atomizer | Gỡ Maya/Alex; pillar mẫu bỉm & AMEBE; xưng Sếp/Em | 3,8 KB |
 | ~~ke-hoach~~ | **Xoá** (đã gộp) | — |
 
-Các agent chủ dài 12–15 KB vì mang khối context chung (~6 KB) + quy tắc lưu file (~1,5 KB). Đổi lại, sửa dữ kiện chỉ ở 1 chỗ.
+Các agent chủ dài 14–18 KB vì mang khối context chung (~8 KB) + quy tắc lưu file (~1,5 KB). Đổi lại, sửa dữ kiện chỉ ở 1 chỗ.
 
 ## 5. Kết quả chạy lại trên v2
 
-{{V2_RESULTS}}
+Chạy lại 2 ca nặng nhất trên bộ v2 (đọc trực tiếp `dist/*/SKILL.md`, cùng câu lệnh, cùng điều kiện dry run).
+
+| Ca | Tiêu chí | v1 | v2 |
+|---|---|---|---|
+| T3 Kế hoạch Q4 AMEBE | Chỉ 1 skill kế hoạch, không phân vân | Mượn 2 skill | **Đạt** — chỉ `ke-hoach-agent` |
+| | Thực thu online nhất quán | 80% vs 20–30% | **Đạt** — 1 giá trị 80% trong toàn bộ dist (còn nhãn chờ Sếp xác nhận) |
+| | Cảnh báo ngân sách vượt quỹ MKT 10% | Agent tự nghĩ ra | **Đạt** — quy tắc có sẵn ở 3 nơi; tính vượt 3,1 lần, giải ngân 3 đợt theo checkpoint |
+| | Lịch tính từ ngày hôm nay | Agent tự nghĩ ra | **Đạt** — còn 10,3 tuần, tuần chuẩn bị 21–26/10 |
+| | Thiếu AOV/COGS → hỏi + giả định đồng thời | Có | **Đạt** |
+| | 1 đường dẫn lưu đúng quy tắc | 3 quy tắc khác nhau | **Đạt** — `AMEBE/2026-10-20 Kế hoạch marketing Q4 AMEBE/` + fallback cloud |
+| T4 Moony/Merries → tăng giá | Dispatcher route rõ chuỗi nghiên cứu → CEO | Không có route, agent tự gọi | **Đạt** — bảng "Kết hợp thường gặp" trúng đúng ca |
+| | 1 format cho phần khuyến nghị | Tự ghép 2 format | **Đạt** — format ceo-agent; nghiên cứu giữ format riêng ở phần trên |
+| | Xử lý khi không tìm được thị phần/giá 2026 | Thiếu hướng dẫn | **Đạt** — mục "Không tìm được" + đề xuất khảo giá nội bộ / mua Euromonitor, Metric; đánh dấu "(lỗi thời, năm)" |
+| | Nguồn mới tìm được | | Q&Me 4/2024: Huggies 21%, Bobby 14%, Moony 12% thị phần TMĐT; dải giá bán chạy 200–350K/gói |
+
+Sau 2 ca chạy lại, đã vá thêm vào v2 (đã build lại): bỏ trùng "Top 3 hành động" khi chuyển sang CEO; định nghĩa chung "doanh thu" (= GMV), ROAS kênh / ROAS blended, CPA, AOV; thêm dòng Facebook inbox/COD vào bảng chiết khấu; lịch mùa vụ bán hàng VN (11.11, Black Friday 27/11/2026, 12.12, Noel, Tết 06/02/2027); quy ước bản kế hoạch rút gọn 5 mục; kế hoạch có tài chính lưu `.docx` + `.xlsx`; dispatcher nhắc không dùng `ke-hoach` cũ nếu còn.
+
+Điểm còn mở, không giải quyết được bằng skill (cần quyết định của Sếp): quỹ MKT 10% có ngoại lệ cho nhãn giai đoạn test (AMEBE) không; benchmark ROAS/CPA/CPM nội bộ từ chiến dịch trước; thông số SKU trong fact-sheet.
 
 ---
 
 ## 6. Việc Sếp cần làm (theo thứ tự)
 
-1. **Chốt 4 dữ kiện** (mục 3, ưu tiên 1): thực thu online; dòng NPP độc quyền; xuất xứ BB Jollity; vùng của văn phòng Ninh Bình.
+1. **Chốt 5 dữ kiện** (đánh dấu "(cần Sếp xác nhận)" trong `context/tinysun-context.md`): thực thu online 80%; thực thu Facebook inbox/COD; dòng NPP độc quyền; xuất xứ BB Jollity; vùng của văn phòng Ninh Bình; có ngưỡng quỹ MKT riêng cho AMEBE giai đoạn test không.
 2. **Điền `context/product-fact-sheet.md`** (giá, số miếng, giờ thấm hút, chứng nhận từng SKU; AOV/COGS/nhân sự AMEBE; kết quả GĐ1). Không có bảng này, content vẫn phải để trống số.
 3. Chạy `python3 build.py`, upload 10 file `dist/*/SKILL.md` lên claude.ai, **xoá skill `ke-hoach`**.
 4. Chạy lại 7 ca trong `tests/test-cases.md`.

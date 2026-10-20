@@ -133,7 +133,7 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 **AMEBE / Aimee Bebe** — thời trang trẻ em cao cấp, công ty mới trong hệ sinh thái.
 - Cổ đông: Sếp Quang 60% + Tùng 40%; vốn điều lệ 500 triệu đồng.
 - GĐ1 (6 tháng, kế hoạch bản 2.1 chốt 12/06/2026): mục tiêu doanh thu 1,3–3 tỷ, test thị trường, hoà vốn ổn định. **Kết quả GĐ1 đến nay: chưa cập nhật — hỏi Sếp.**
-- AOV, COGS, nhân sự AMEBE: **chưa có trong context — hỏi Sếp trước khi lập plan tài chính.**
+- AOV, COGS, nhân sự AMEBE: **chưa có trong context — hỏi Sếp, đồng thời lập plan với giả định ghi rõ "(giả định)".**
 
 **Cơ cấu chiết khấu kênh (mặc định TinySun/AMEBE):**
 
@@ -141,9 +141,27 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 |---|---|---|
 | Shop bán lẻ | 40% | 60% giá lẻ |
 | NPP | 45% | 55% giá lẻ |
-| Online (Shopee / TikTok Shop) | phí sàn + ship + voucher ~20% | **~80% giá lẻ, chưa trừ chi phí quảng cáo** **(cần Sếp xác nhận: skill ke-hoach cũ ghi ngược lại là thực thu 20–30%)** |
+| Online sàn (Shopee / TikTok Shop) | phí sàn + ship + voucher ~20% | **~80% giá lẻ, chưa trừ chi phí quảng cáo** **(cần Sếp xác nhận: skill ke-hoach cũ ghi ngược lại là thực thu 20–30%)** |
+| Facebook inbox / COD / website | ship + hoàn COD | **chưa có — tạm dùng 80% như sàn (giả định; cần Sếp xác nhận)** |
 | Quỹ Kinh doanh | 10% doanh thu thực | |
-| Quỹ Marketing | 10% doanh thu thực | Khi Sếp yêu cầu ngân sách vượt quỹ → vẫn lập plan, nhưng cảnh báo rõ mức vượt và đề xuất giải ngân theo checkpoint |
+| Quỹ Marketing | 10% doanh thu thực | Khi Sếp yêu cầu ngân sách vượt quỹ → vẫn lập plan, cảnh báo rõ mức vượt và đề xuất giải ngân theo checkpoint. **(cần Sếp xác nhận: nhãn đang giai đoạn test/ra mắt như AMEBE có ngưỡng riêng không, ví dụ 20–30% thực thu?)** |
+
+**Định nghĩa chỉ số dùng chung (mọi agent tính giống nhau):**
+- "Doanh thu" khi Sếp không nói rõ → hiểu là **GMV** (doanh thu bán ra theo giá niêm yết). Quỹ KD / MKT tính trên **doanh thu thực thu**.
+- **ROAS kênh** = GMV kênh ÷ chi phí quảng cáo trả phí của kênh (ads + KOC trả theo đơn). **ROAS blended** = GMV ÷ tổng chi marketing (gồm content, live, voucher).
+- **CPA** = tổng chi marketing ÷ số đơn. **AOV** = GMV ÷ số đơn.
+- Benchmark nội bộ (ROAS/CPA/CPM thực tế các chiến dịch trước): **chưa có — hỏi Sếp hoặc bao-cao-agent tổng hợp; khi chưa có, ghi "(ước tính, chưa kiểm chứng)".**
+
+**Lịch mùa vụ bán hàng VN (đưa vào mọi kế hoạch/lịch content):**
+
+| Mốc | Ngày | Ghi chú |
+|---|---|---|
+| Sale 10.10 / 11.11 / 12.12 | 10/10, 11/11, 12/12 | Sàn trợ giá, CPM tăng 30–50% (ước tính) |
+| Black Friday | 27/11/2026 | Thứ Sáu thứ 4 của tháng 11 |
+| Noel | 24–25/12; chốt ship 23/12 | Combo quà, set gia đình |
+| Tết Nguyên Đán 2027 | 06/02/2027 (kiểm tra lại lịch âm) | Đồ Tết bán từ giữa tháng 12; mua sắm đạt đỉnh 2–3 tuần trước Tết |
+| Tựu trường | cuối tháng 8 – đầu tháng 9 | |
+| 8/3, 20/10, Ngày của Mẹ (CN thứ 2 tháng 5) | | Dịp cho TinyCare, AMEBE, quà tặng |
 
 **Đối thủ:**
 - Bỉm trẻ em: Bobby (Diana Unicharm), Pampers (P&G), Huggies (Kimberly-Clark), MamyPoko (Unicharm) — mass, chiếm 60–70% thị phần; Moony, Merries, Goo.n — cao cấp Nhật, cạnh tranh trực tiếp BB Jollity; Unidry và các nhãn OEM.
@@ -172,5 +190,5 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 - Tên file: `YYYY-MM-DD Tên mô tả.đuôi` cho mọi sản phẩm bàn giao, kể cả `.md` (ví dụ `2026-10-20 Kế hoạch marketing Q4 AMEBE.docx`).
 - Phiên bản: bản đầu không ghi số; từ lần sửa 2 thêm ` v2`, ` v3` trước đuôi file.
 - Tên tiếng Việt, mô tả đủ để tìm không cần mở file, tối đa ~60 ký tự, không dùng `/ \ : * ? " < > |`, không viết tắt khó hiểu.
-- Định dạng mặc định: kế hoạch, báo cáo gửi người khác → `.docx` (skill `docx`); bảng số liệu → `.xlsx` (skill `xlsx`); trình bày → `.pptx`; content, script, phân tích/khuyến nghị trả lời trong chat → `.md`. Hai agent chạy nối tiếp (nghiên cứu → CEO, báo cáo → CEO) → 1 file chung.
+- Định dạng mặc định: kế hoạch, báo cáo gửi người khác → `.docx` (skill `docx`); bảng số liệu → `.xlsx` (skill `xlsx`); trình bày → `.pptx`; content, script, phân tích/khuyến nghị trả lời trong chat → `.md`. Hai agent chạy nối tiếp (nghiên cứu → CEO, báo cáo → CEO) → 1 file chung. Kế hoạch có bảng tài chính → `.docx` (narrative) + `.xlsx` (bảng số, 3 kịch bản) cùng folder.
 - **Fallback khi chạy trên cloud / máy khác** (không có `~/claude/outputs`): lưu vào `outputs/` trong thư mục làm việc hiện tại với cùng cấu trúc, và báo Sếp đường dẫn đầy đủ.

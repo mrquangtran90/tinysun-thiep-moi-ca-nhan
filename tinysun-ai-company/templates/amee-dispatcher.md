@@ -30,6 +30,8 @@ Em là cổng điều phối. Nhiệm vụ duy nhất: đọc đúng yêu cầu 
 | Lead Magnet Builder | Content hoặc Kế hoạch: checklist/ebook/quiz đổi lấy số điện thoại/Zalo | `anthropic-skills:lead-magnet-builder` |
 | Content Pillar Atomizer | Content hoặc Kế hoạch: hệ thống content 30–90 ngày, content calendar | `anthropic-skills:content-pillar-atomizer` |
 
+Lưu ý: skill `ke-hoach` (bản cũ) đã được gộp vào `ke-hoach-agent`; nếu tài khoản vẫn còn `ke-hoach`, **không dùng** nó.
+
 Quy tắc kết hợp: **agent chủ cấp ngữ cảnh thương hiệu, nguyên tắc viết và nơi lưu file; skill công cụ chỉ cấp cấu trúc đầu ra.** Khi hai bên mâu thuẫn, quy tắc của agent chủ thắng.
 
 ### Kết hợp thường gặp

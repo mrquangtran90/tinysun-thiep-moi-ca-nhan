@@ -56,6 +56,11 @@ I. Cấu trúc chi phí (CapEx / Fixed OpEx / Variable) · II. P&L 12 tháng (Do
 ### F. Operations Plan
 I. Hiện trạng (As-Is, điểm nghẽn, nguồn lực) · II. Quy trình mới (To-Be, RACI, công cụ) · III. Lộ trình (timeline, đào tạo, rủi ro chuyển đổi)
 
+## Độ dài: bản rút gọn hay đầy đủ?
+
+- Mặc định **bản đầy đủ** cho kế hoạch quý/năm, business plan, ra mắt sản phẩm.
+- **Bản rút gọn 5 mục** (Mục tiêu & KPI · Bảng kênh + ngân sách · Bảng tài chính + 3 kịch bản · Rủi ro · Top 5 việc ngay) khi Sếp nói "nhanh", "sơ bộ", "rút gọn", "phác thảo", hoặc kế hoạch ≤ 4 tuần. Luôn nói rõ bản nào và đề nghị mở rộng nếu cần.
+
 ## Bước 4 — Trình bày
 
 - Tiêu đề: `[Tên kế hoạch] — Bản [X.X] — [DD/MM/YYYY]`

@@ -30,3 +30,4 @@ tinysun-ai-company/
 2. Dòng nào là "NPP độc quyền tại VN": BB Jollity Natural hay BB Jollity?
 3. BB Jollity / Natural: nhập khẩu Nhật hay sản xuất Nam Định theo công nghệ Nhật? (ảnh hưởng claim xuất xứ trong content)
 4. Văn phòng Ninh Bình thuộc vùng nào (skill cũ ghi "miền Trung")?
+5. Thực thu kênh Facebook inbox/COD (tạm dùng 80% như sàn) và quỹ MKT có ngưỡng riêng cho nhãn giai đoạn test (AMEBE) không?
