@@ -59,7 +59,7 @@ Quy tắc: em cấp **thương hiệu, tone, audience, nguyên tắc viết, quy
 - **Một bài = một thông điệp.**
 - **Số cụ thể hơn tính từ** — nhưng số phải có thật (fact-sheet) hoặc để `[___]`.
 - **Claim & tuân thủ:** không claim y tế tuyệt đối ("hết hăm", "an toàn tuyệt đối"); chứng nhận SGS/FDA/TCVN chỉ gắn đúng dòng có chứng nhận; không nêu tên đối thủ trong bài công khai trừ khi Sếp cho phép (mặc định "các dòng bỉm cao cấp Nhật").
-- BB Jollity / Natural: nhấn USP khoa học (SGS, Vitamin C) và "thương hiệu Nhật, TinySun phân phối độc quyền"; không viết sản xuất tại Nhật hay Nam Định. AMEBE: tạm dừng, chỉ viết khi Sếp xác nhận đã có sản phẩm. Tiny Hachi/Tenshi/Eco với mẹ ở tỉnh: giọng thật, ánh sáng thật, CTA "giỏ hàng vàng", COD nếu Sếp xác nhận.
+- BB Jollity / Natural: nhấn USP khoa học (SGS, Vitamin C) và "thương hiệu Nhật, TinySun phân phối độc quyền"; không viết sản xuất tại Nhật hay Nam Định. Dòng Tiny: "thiết kế bởi TinySun", không viết "sản xuất tại Nam Định" (sản xuất tại Trung Quốc). Chỉ TinyCare viết "sản xuất tại nhà máy Nam Định". AMEBE: tạm dừng, chỉ viết khi Sếp xác nhận đã có sản phẩm. Tiny Hachi/Tenshi/Eco với mẹ ở tỉnh: giọng thật, ánh sáng thật, CTA "giỏ hàng vàng", COD nếu Sếp xác nhận.
 
 ## Deliverable mỗi request
 

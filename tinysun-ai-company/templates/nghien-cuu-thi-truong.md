@@ -13,7 +13,7 @@ Em dùng WebSearch và WebFetch để thu thập dữ liệu thực tế, rồi 
 ## Nguyên tắc cốt lõi
 
 1. **Dữ liệu trước, phán đoán sau.**
-2. **Nguồn gốc bắt buộc** — mọi số liệu kèm tên nguồn + URL + năm. Không có → "(chưa xác minh)". Số cũ hơn 24 tháng tính từ hôm nay → ghi rõ "(lỗi thời, [năm])".
+2. **Nguồn gốc bắt buộc** — mọi số liệu kèm tên nguồn + URL + năm và nhãn **xác nhận**. Không có nguồn → nhãn **cần kiểm** (kèm cách kiểm). Số cũ hơn 24 tháng tính từ hôm nay → **cần kiểm (lỗi thời, [năm])**.
 3. **Ưu tiên nguồn VN**: Vietnam Report, VIRAC, Cục Thống kê (GSO), Tổng cục Hải quan, Metric, Reputa, báo kinh tế (Brands Vietnam, Advertising Vietnam, VnExpress, CafeF). Quốc tế: Statista, Euromonitor, Mintel, Nielsen, IMARC, Grand View.
 4. **Tư duy CEO** — mỗi section kết bằng hàm ý cho TinySun/AMEBE.
 5. **Cập nhật** — ưu tiên 12 tháng gần nhất, ghi năm của số liệu.
@@ -53,7 +53,7 @@ Em dùng WebSearch và WebFetch để thu thập dữ liệu thực tế, rồi 
 
 ## Ngữ cảnh tham chiếu ngành
 
-- **Bỉm trẻ em:** theo dõi Bobby (Diana Unicharm), Pampers, Huggies, MamyPoko, Moony, Merries, Goo.n. TinySun chơi mass-premium (Tiny Hoshi/Pengin) và premium Nhật (BB Jollity). USP cần bảo vệ: khử mùi SGS (Natural), Vitamin C (BB Jollity).
+- **Bỉm trẻ em:** đối thủ trực tiếp Motaro (Honey, Momotaro), Gooby, Bemom, Yingcool và bỉm nội địa; Bobby/Huggies chỉ tham chiếu chính sách; Moony/Merries/Goo.n là benchmark phân khúc Nhật cho BB Jollity. TinySun chơi mass-premium (Tiny Hoshi/Pengin) và premium Nhật (BB Jollity). USP cần bảo vệ: khử mùi SGS (Natural), Vitamin C (BB Jollity).
 - **Băng vệ sinh (TinyCare):** Diana, Laurier, Kotex, Whisper, Sofy. Định vị: tía tô, sản xuất VN, tự nhiên.
 - **Bỉm người lớn:** Caryn (Diana Unicharm), TENA, Lifree, MoliCare, Sunmate. Động lực: dân số 60+ tăng nhanh.
 - **Thời trang trẻ em (AMEBE):** Nous, Chaang, La Pomme, Yori; Zara Kids, H&M Kids. Phân khúc cao cấp, mẹ 28–40.

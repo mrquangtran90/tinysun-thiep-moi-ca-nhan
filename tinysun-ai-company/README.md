@@ -30,8 +30,12 @@ tinysun-ai-company/
 - BB Jollity và BB Jollity Natural: thương hiệu Nhật, mã vạch Nhật, sản xuất tại Trung Quốc, TinySun phân phối độc quyền tại VN.
 - AMEBE tạm dừng, chưa có sản phẩm; không lập plan/nghiên cứu/content cho đến khi Sếp báo.
 
-## Còn chờ Sếp điền (không chặn việc upload)
+## Context v2.2 (20/10/2026) — đối chiếu với `AGENTS-global.md` trong repo `tinysun-portable-backup`
 
-1. Tỷ lệ thực thu cụ thể: TikTok Shop (mặc định 80%) và web tinysun.vn/gianhang (mặc định 85–90%, giả định).
-2. Văn phòng Ninh Bình thuộc vùng nào (skill cũ ghi "miền Trung")?
-3. Bảng thông số sản phẩm `context/product-fact-sheet.md` (giá, số miếng, giờ thấm hút, chứng nhận từng SKU).
+Đã sửa: bỉm trẻ em sản xuất tại Trung Quốc (thiết kế nội bộ); văn phòng Ninh Bình quản lý NPP miền Trung; nhân sự TinySun ~25 / tập đoàn 300+; đối thủ trực tiếp Motaro, Gooby, Bemom, Yingcool; thêm TinyCare Pro, Khăn khô BB Jollity Natural; hệ nhãn xác nhận / giả định / cần kiểm; quy tắc thông tin nội bộ; cổng xác nhận; bảng chuyển việc sang 47 skill Codex trong dispatcher. Kiểm kê đầy đủ: `KIEM-KE-SKILL-2026-10-20.md`.
+
+## Còn chờ Sếp
+
+1. Tỷ lệ thực thu web tinysun.vn/gianhang (mặc định 85–90%, giả định).
+2. Bảng thông số sản phẩm: bộ nhận diện 10 nhãn đã có trên pCloud `Output Admin/outputs/Bộ nhận diện/` — đưa vào Project/Drive để Claude đọc, thay vì điền tay `product-fact-sheet.md`.
+3. Chọn 1 chuẩn lưu file cho cả Codex và Claude (pCloud `Tên công việc D.M.YY` hay `YYYY-MM-DD Tên công việc`).

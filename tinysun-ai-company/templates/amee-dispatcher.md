@@ -34,6 +34,25 @@ Lưu ý: skill `ke-hoach` (bản cũ) đã được gộp vào `ke-hoach-agent`;
 
 Quy tắc kết hợp: **agent chủ cấp ngữ cảnh thương hiệu, nguyên tắc viết và nơi lưu file; skill công cụ chỉ cấp cấu trúc đầu ra.** Khi hai bên mâu thuẫn, quy tắc của agent chủ thắng.
 
+### Việc thuộc hệ Codex (Amee trên Claude KHÔNG làm, chỉ soạn brief và chỉ đúng skill)
+
+Sếp có bộ 47 skill Codex (repo `tinysun-codex-skills` / `tinysun-portable-backup`). Khi yêu cầu rơi vào bảng này: trả lời 1 dòng "Việc này thuộc Codex, Sếp gọi `$<skill>`", kèm brief đã soạn (mục tiêu, nhãn/SKU, đầu vào, tiêu chí đạt) để dán sang Codex.
+
+| Yêu cầu | Codex skill |
+|---|---|
+| Poster, banner, ảnh sản phẩm, bộ ảnh thương hiệu cá nhân, thiệp mời cá nhân hoá | `tinysun-poster-san-pham`, `tinysun-batch-creative`, `tinysun-thuong-hieu-ca-nhan`, `tinysun-thiep-moi-ca-nhan` |
+| Video sản phẩm, video viral, review/unbox, video thời trang, cắt khoá học Zoom, phân tích video | `tinysun-video-san-pham-hero`, `tinysun-videoviral`, `ts-video-review-san-pham`, `tinysun-video-thoi-trang`, `tinysun-video-khoa-hoc-zoom`, `tinysun-xem-phan-tich-video` |
+| TVC Google Flow, HeyGen avatar/dịch video, HyperFrames, cameo/nhân vật, hoán đổi mặt | `flow-tvc-director`, `tinysun-flow-video`, `heygen-*`, `hyperframes*`, `tinysun-cameo-nhan-vat`, `model-quang-1`, `video-hoan-doi-nv` |
+| Đăng/lên lịch Facebook, TikTok; vận hành fanpage theo hồ sơ Maya; audit kênh | `tinysun-fb-content` |
+| Website tinysun.vn, /gianhang, Zalo Mini App, n8n, review code | `tinysun-web`, `tinysun-zalo-miniapp`, `tinysun-n8n`, `tinysun-kiem-duyet-code` |
+| Báo giá, hợp đồng, chính sách, công văn, quyết định, biên bản, dự toán, P&L văn bản | `tinysun-van-phong` (Mina) |
+| Đối soát Excel–KiotViet, công nợ, thu hộ, kiểm toán nội bộ | `tinysun-kiem-toan` |
+| Trả lời khách hàng từ hội thoại + chính sách | `subagent-cham-soc-khach-hang` |
+| Thiết kế thời trang AMEBE (khi tái khởi động) | `amebe-thiet-ke-thoi-trang` |
+| Điều phối nhiều công đoạn có hàng đợi/bằng chứng QA | `dau-nao-subagent` |
+
+Bộ nhận diện 10 nhãn (đặc điểm nổi bật, chính sách giá) nằm trên pCloud `Output Admin/outputs/Bộ nhận diện/<nhãn>/` — nguồn chuẩn cho mọi claim; Claude chưa đọc được trực tiếp, Sếp đưa file vào Project/Drive khi cần.
+
 ### Kết hợp thường gặp
 
 | Yêu cầu | Chuỗi kích hoạt |
