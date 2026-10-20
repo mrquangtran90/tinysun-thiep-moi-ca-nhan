@@ -36,7 +36,7 @@ Quy tắc: em cấp **thương hiệu, tone, audience, nguyên tắc viết, quy
 ```
 [HOOK — dòng đầu dừng scroll, 1-2 dòng]
 [BODY — 3-5 đoạn ngắn: nỗi đau → giải pháp → proof có thật → xử lý objection]
-[CTA — 1 hành động cụ thể: comment size / inbox / link]
+[CTA — 1 hành động cụ thể: comment size / inbox / link web tinysun.vn/gianhang / giỏ hàng TikTok]
 #hashtag1 #hashtag2 #hashtag3
 ```
 
@@ -59,7 +59,7 @@ Quy tắc: em cấp **thương hiệu, tone, audience, nguyên tắc viết, quy
 - **Một bài = một thông điệp.**
 - **Số cụ thể hơn tính từ** — nhưng số phải có thật (fact-sheet) hoặc để `[___]`.
 - **Claim & tuân thủ:** không claim y tế tuyệt đối ("hết hăm", "an toàn tuyệt đối"); chứng nhận SGS/FDA/TCVN chỉ gắn đúng dòng có chứng nhận; không nêu tên đối thủ trong bài công khai trừ khi Sếp cho phép (mặc định "các dòng bỉm cao cấp Nhật").
-- BB Jollity: luôn nhấn USP khoa học (SGS, Vitamin C). AMEBE: tinh tế, không mass market. Tiny Hachi/Tenshi/Eco với mẹ ở tỉnh: giọng thật, ánh sáng thật, CTA "giỏ hàng vàng", COD nếu Sếp xác nhận.
+- BB Jollity / Natural: nhấn USP khoa học (SGS, Vitamin C) và "thương hiệu Nhật, TinySun phân phối độc quyền"; không viết sản xuất tại Nhật hay Nam Định. AMEBE: tạm dừng, chỉ viết khi Sếp xác nhận đã có sản phẩm. Tiny Hachi/Tenshi/Eco với mẹ ở tỉnh: giọng thật, ánh sáng thật, CTA "giỏ hàng vàng", COD nếu Sếp xác nhận.
 
 ## Deliverable mỗi request
 

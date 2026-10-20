@@ -24,10 +24,14 @@ tinysun-ai-company/
 4. **Xoá skill `ke-hoach`** (đã gộp vào `ke-hoach-agent`).
 5. Chạy lại 7 ca trong `tests/test-cases.md`.
 
-## 4 dữ kiện cần Sếp chốt trước khi upload (đang đánh dấu "(cần Sếp xác nhận)" trong context)
+## Đã chốt với Sếp ngày 20/10/2026 (Context v2.1)
 
-1. Doanh thu thực thu kênh online: **80% giá lẻ** (3 skill cũ) hay **20–30%** (skill ke-hoach cũ)? Bản v2 dùng 80%.
-2. Dòng nào là "NPP độc quyền tại VN": BB Jollity Natural hay BB Jollity?
-3. BB Jollity / Natural: nhập khẩu Nhật hay sản xuất Nam Định theo công nghệ Nhật? (ảnh hưởng claim xuất xứ trong content)
-4. Văn phòng Ninh Bình thuộc vùng nào (skill cũ ghi "miền Trung")?
-5. Thực thu kênh Facebook inbox/COD (tạm dùng 80% như sàn) và quỹ MKT có ngưỡng riêng cho nhãn giai đoạn test (AMEBE) không?
+- Kênh online đang bán: TikTok Shop + web tinysun.vn/gianhang; Facebook kéo đơn về web; Shopee không còn trong danh sách.
+- BB Jollity và BB Jollity Natural: thương hiệu Nhật, mã vạch Nhật, sản xuất tại Trung Quốc, TinySun phân phối độc quyền tại VN.
+- AMEBE tạm dừng, chưa có sản phẩm; không lập plan/nghiên cứu/content cho đến khi Sếp báo.
+
+## Còn chờ Sếp điền (không chặn việc upload)
+
+1. Tỷ lệ thực thu cụ thể: TikTok Shop (mặc định 80%) và web tinysun.vn/gianhang (mặc định 85–90%, giả định).
+2. Văn phòng Ninh Bình thuộc vùng nào (skill cũ ghi "miền Trung")?
+3. Bảng thông số sản phẩm `context/product-fact-sheet.md` (giá, số miếng, giờ thấm hút, chứng nhận từng SKU).

@@ -62,7 +62,7 @@ Quy tắc chồng lấn: chọn framework theo **câu hỏi Sếp cần trả l�
 
 ---
 
-## Ngữ cảnh chung TinySun / AMEBE — Context v2.0 (cập nhật 20/10/2026)
+## Ngữ cảnh chung TinySun / AMEBE — Context v2.1 (cập nhật 20/10/2026, sau khi Sếp chốt 4 điểm)
 
 > Đây là NGUỒN DUY NHẤT về dữ kiện doanh nghiệp. Mọi agent dùng chung khối này. Khi dữ kiện thay đổi, sửa file `context/tinysun-context.md` rồi chạy `build.py` — không sửa tay trong từng skill.
 > Dữ kiện có đánh dấu **(cần Sếp xác nhận)** là chỗ các bản skill cũ mâu thuẫn nhau; dùng giá trị ghi ở đây cho tới khi Sếp chốt.
@@ -80,8 +80,8 @@ Quy tắc chồng lấn: chọn framework theo **câu hỏi Sếp cần trả l�
 
 | Nhãn | Ngành | Phân khúc | Giá lẻ tham chiếu | USP / ghi chú |
 |---|---|---|---|---|
-| BB Jollity Natural | Bỉm trẻ em | Cao cấp Nhật | 310.000đ | Khử mùi nước tiểu, chứng nhận SGS. **(cần Sếp xác nhận: dòng nào là "NPP độc quyền tại VN" — Natural hay BB Jollity; sản xuất tại Nam Định theo công nghệ Nhật hay nhập khẩu)** |
-| BB Jollity | Bỉm trẻ em | Cao cấp Nhật | 299.000đ | Vitamin C, tăng đề kháng da bé. Đối trọng Moony/Merries |
+| BB Jollity Natural | Bỉm trẻ em | Cao cấp Nhật | 310.000đ | Khử mùi nước tiểu, chứng nhận SGS. **Thương hiệu Nhật, mã vạch Nhật, sản xuất tại Trung Quốc, TinySun phân phối độc quyền tại VN** (Sếp chốt 20/10/2026) |
+| BB Jollity | Bỉm trẻ em | Cao cấp Nhật | 299.000đ | Vitamin C, tăng đề kháng da bé. Đối trọng Moony/Merries. **Thương hiệu Nhật, mã vạch Nhật, sản xuất tại Trung Quốc, TinySun phân phối độc quyền tại VN** |
 | Tiny Hoshi | Bỉm trẻ em | Cao cấp | 190.000đ | |
 | Tiny Pengin | Bỉm trẻ em | Trung–cao cấp | 195.000–240.000đ | |
 | Tiny Hachi | Bỉm trẻ em | Trung cấp | 170.000–355.000đ (theo size/gói) | Volume lớn |
@@ -105,10 +105,10 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 | AMEBE / Aimee Bebe | Mẹ 28–40, thu nhập khá | Tinh tế, thẩm mỹ, hiện đại, không mass market |
 | Fanpage TinySun (tập đoàn) | NPP, đối tác, mẹ bỉm | Uy tín nhà máy, chứng nhận, năng lực OEM |
 
-**AMEBE / Aimee Bebe** — thời trang trẻ em cao cấp, công ty mới trong hệ sinh thái.
+**AMEBE / Aimee Bebe** — thời trang trẻ em cao cấp, công ty mới trong hệ sinh thái. **TRẠNG THÁI (Sếp chốt 20/10/2026): tạm dừng, chưa có sản phẩm. Không chủ động lập kế hoạch, nghiên cứu hay viết content cho AMEBE cho đến khi Sếp báo có sản phẩm.** Nếu Sếp nhắc AMEBE → hỏi 1 câu xác nhận đã có sản phẩm chưa rồi mới làm.
 - Cổ đông: Sếp Quang 60% + Tùng 40%; vốn điều lệ 500 triệu đồng.
-- GĐ1 (6 tháng, kế hoạch bản 2.1 chốt 12/06/2026): mục tiêu doanh thu 1,3–3 tỷ, test thị trường, hoà vốn ổn định. **Kết quả GĐ1 đến nay: chưa cập nhật — hỏi Sếp.**
-- AOV, COGS, nhân sự AMEBE: **chưa có trong context — hỏi Sếp, đồng thời lập plan với giả định ghi rõ "(giả định)".**
+- Kế hoạch GĐ1 bản 2.1 (12/06/2026): mục tiêu 1,3–3 tỷ/6 tháng, test thị trường, hoà vốn — giữ làm tham chiếu khi tái khởi động.
+- AOV, COGS, nhân sự AMEBE: chưa có — hỏi Sếp khi tái khởi động.
 
 **Cơ cấu chiết khấu kênh (mặc định TinySun/AMEBE):**
 
@@ -116,10 +116,10 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 |---|---|---|
 | Shop bán lẻ | 40% | 60% giá lẻ |
 | NPP | 45% | 55% giá lẻ |
-| Online sàn (Shopee / TikTok Shop) | phí sàn + ship + voucher ~20% | **~80% giá lẻ, chưa trừ chi phí quảng cáo** **(cần Sếp xác nhận: skill ke-hoach cũ ghi ngược lại là thực thu 20–30%)** |
-| Facebook inbox / COD / website | ship + hoàn COD | **chưa có — tạm dùng 80% như sàn (giả định; cần Sếp xác nhận)** |
+| TikTok Shop | phí sàn + ship + voucher | **~80% giá lẻ, chưa trừ chi phí quảng cáo (tỷ lệ mặc định; Sếp chưa chốt con số — skill cũ có bản ghi 20–30%)** |
+| Web tinysun.vn/gianhang (Facebook, Zalo, ads đều kéo đơn về đây) | không phí sàn; ship + cổng thanh toán + hoàn COD | **cao hơn TikTok Shop; tỷ lệ cụ thể chưa có — hỏi Sếp, tạm dùng 85–90% ghi "(giả định)"** |
 | Quỹ Kinh doanh | 10% doanh thu thực | |
-| Quỹ Marketing | 10% doanh thu thực | Khi Sếp yêu cầu ngân sách vượt quỹ → vẫn lập plan, cảnh báo rõ mức vượt và đề xuất giải ngân theo checkpoint. **(cần Sếp xác nhận: nhãn đang giai đoạn test/ra mắt như AMEBE có ngưỡng riêng không, ví dụ 20–30% thực thu?)** |
+| Quỹ Marketing | 10% doanh thu thực | Khi Sếp yêu cầu ngân sách vượt quỹ → vẫn lập plan, cảnh báo rõ mức vượt và đề xuất giải ngân theo checkpoint |
 
 **Định nghĩa chỉ số dùng chung (mọi agent tính giống nhau):**
 - "Doanh thu" khi Sếp không nói rõ → hiểu là **GMV** (doanh thu bán ra theo giá niêm yết). Quỹ KD / MKT tính trên **doanh thu thực thu**.
@@ -144,9 +144,12 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 - Bỉm người lớn: Caryn (Diana Unicharm), TENA, Lifree, MoliCare, Sunmate.
 - Thời trang trẻ em (AMEBE): Nous, Chaang, La Pomme, Yori; quốc tế: Zara Kids, H&M Kids.
 
-**Kênh đang vận hành:** Facebook (chính), TikTok, Shopee, TikTok Shop, livestream, PG tại điểm bán, hỗ trợ NPP sự kiện.
+**Kênh đang vận hành (Sếp chốt 20/10/2026):**
+- Online bán hàng: **TikTok Shop** và **web tinysun.vn/gianhang**. Facebook là kênh kéo traffic/chốt đơn về web, không phải kênh bán riêng. Shopee không còn trong danh sách kênh online đang bán (không lập plan Shopee trừ khi Sếp yêu cầu).
+- Offline: NPP 50+ tỉnh, PG tại điểm bán, hỗ trợ NPP sự kiện.
+- Nội dung: Facebook (chính), TikTok, livestream.
 
-**Quy tắc claim & tuân thủ (ngành mẹ & bé):** không claim y tế tuyệt đối ("hết hăm", "an toàn tuyệt đối"); chỉ nêu chứng nhận có thật (SGS/FDA/TCVN) đúng dòng sản phẩm có chứng nhận; nêu tên đối thủ trong nội dung công khai chỉ khi Sếp cho phép, mặc định dùng "các dòng bỉm cao cấp Nhật".
+**Quy tắc claim & tuân thủ (ngành mẹ & bé):** không claim y tế tuyệt đối ("hết hăm", "an toàn tuyệt đối"); chỉ nêu chứng nhận có thật (SGS/FDA/TCVN) đúng dòng sản phẩm có chứng nhận; nêu tên đối thủ trong nội dung công khai chỉ khi Sếp cho phép, mặc định dùng "các dòng bỉm cao cấp Nhật". **Xuất xứ:** BB Jollity / Natural viết là "thương hiệu Nhật, TinySun phân phối độc quyền tại Việt Nam" — KHÔNG viết "sản xuất tại Nhật" hay "sản xuất tại nhà máy Nam Định"; nếu cần nêu nơi sản xuất thì ghi đúng "sản xuất tại Trung Quốc theo tiêu chuẩn của thương hiệu". Dòng Tiny / TinyCare mới là sản xuất tại Nam Định.
 
 ---
 

@@ -119,10 +119,18 @@ Sau 2 ca chạy lại, đã vá thêm vào v2 (đã build lại): bỏ trùng "T
 
 ## 6. Việc Sếp cần làm (theo thứ tự)
 
-1. **Chốt 5 dữ kiện** (đánh dấu "(cần Sếp xác nhận)" trong `context/tinysun-context.md`): thực thu online 80%; thực thu Facebook inbox/COD; dòng NPP độc quyền; xuất xứ BB Jollity; vùng của văn phòng Ninh Bình; có ngưỡng quỹ MKT riêng cho AMEBE giai đoạn test không.
+1. ~~Chốt 5 dữ kiện~~ → đã chốt 4/5 (xem mục 6b); còn vùng của văn phòng Ninh Bình và tỷ lệ thực thu cụ thể 2 kênh online.
 2. **Điền `context/product-fact-sheet.md`** (giá, số miếng, giờ thấm hút, chứng nhận từng SKU; AOV/COGS/nhân sự AMEBE; kết quả GĐ1). Không có bảng này, content vẫn phải để trống số.
 3. Chạy `python3 build.py`, upload 10 file `dist/*/SKILL.md` lên claude.ai, **xoá skill `ke-hoach`**.
 4. Chạy lại 7 ca trong `tests/test-cases.md`.
+
+## 6b. Cập nhật sau phản hồi của Sếp (cùng ngày 20/10/2026)
+
+Sếp đã chốt: (1) online bán trên TikTok Shop và web tinysun.vn/gianhang; (2) Facebook kéo đơn về web; (3) BB Jollity và BB Jollity Natural đều là thương hiệu Nhật, mã vạch Nhật, sản xuất tại Trung Quốc, TinySun phân phối độc quyền tại VN; (4) AMEBE tạm dừng, chưa có sản phẩm.
+
+Đã cập nhật vào Context v2.1 và build lại: bảng kênh online, dòng thực thu theo kênh (TikTok Shop 80% mặc định; web cao hơn, tỷ lệ chờ Sếp), quy tắc xuất xứ trong content (không viết "sản xuất tại Nhật" hay "Nam Định" cho BB Jollity), trạng thái AMEBE tạm dừng (dispatcher hỏi 1 câu trước khi làm bất kỳ việc gì về AMEBE), bỏ Shopee khỏi plan mặc định, đổi ca T3 sang BB Jollity Natural và thêm ca T8 kiểm tra AMEBE.
+
+Còn chờ Sếp: tỷ lệ thực thu cụ thể của 2 kênh online; vùng của văn phòng Ninh Bình; bảng thông số sản phẩm.
 
 ## 7. Giới hạn của lần nghiệm thu này
 

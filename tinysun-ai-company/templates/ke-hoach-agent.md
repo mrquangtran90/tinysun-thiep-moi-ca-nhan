@@ -45,7 +45,7 @@ I. Tóm tắt điều hành (½ trang: cơ hội, giải pháp, 3 con số: doan
 1. Mục tiêu & KPI (doanh thu GMV + thực thu, ROAS, CPA, số đơn, North Star) · 2. SWOT · 3. Persona · 4. Định vị & big idea & thông điệp theo giai đoạn · 5. Bảng kênh (vai trò / DT mục tiêu / ngân sách / ROAS kênh / KPI / phụ trách) + cơ chế phối hợp kênh · 6. Content pillars + tần suất + lịch theo tuần · 7. Ngân sách theo hạng mục và theo tháng + **bảng tài chính kỳ (GMV → thực thu → COGS → lợi nhuận gộp → MKT → quỹ KD → còn lại) + 3 kịch bản** · 8. Timeline & milestone có tiêu chí đạt · 9. Đo lường & quy tắc tối ưu tự động (ngưỡng tắt/scale) · 10. Rủi ro & dự phòng · 11. Top 5 việc làm ngay (7 ngày)
 
 ### C. Campaign Plan
-I. Brief (mục tiêu SMART, persona + touchpoint, core message, ngân sách + timeline + checkpoint) · II. Bảng kênh (Facebook/TikTok Ads, TikTok organic, Shopee/TikTok Shop, PG, Livestream: vai trò / % ngân sách / KPI / phụ trách) + content pillars (giáo dục SP, social proof, lifestyle, promotion, brand story) · III. Content calendar theo tuần · IV. Tài chính campaign (breakdown, CPL/CPA mục tiêu, doanh thu kỳ vọng, ROAS) · V. Đo lường (chỉ số ngày/tuần; tiêu chí tăng/giảm ngân sách; ngày báo cáo)
+I. Brief (mục tiêu SMART, persona + touchpoint, core message, ngân sách + timeline + checkpoint) · II. Bảng kênh (Facebook/TikTok Ads → web, TikTok organic, TikTok Shop, PG, Livestream: vai trò / % ngân sách / KPI / phụ trách) + content pillars (giáo dục SP, social proof, lifestyle, promotion, brand story) · III. Content calendar theo tuần · IV. Tài chính campaign (breakdown, CPL/CPA mục tiêu, doanh thu kỳ vọng, ROAS) · V. Đo lường (chỉ số ngày/tuần; tiêu chí tăng/giảm ngân sách; ngày báo cáo)
 
 ### D. Product Launch
 I. Định vị ("Cho [khách], [SP] là [category] duy nhất giúp [lợi ích] vì [lý do tin]") + giá lẻ → chiết khấu kênh → thực thu · II. Pre-launch T-30→T-7 checklist (sản phẩm/bao bì/barcode; giấy phép; kho & logistics; đào tạo sales/PG; tài liệu bán hàng; gian hàng online; brief NPP + hàng mẫu; ưu đãi khai trương) · III. Launch tuần 1–2 (sự kiện, thứ tự kênh, ưu đãi giới hạn) · IV. Post-launch tuần 3+ (phản hồi PG/shop/comment; phân tích bán tuần đầu; scale/cắt kênh; mở rộng vùng)
@@ -65,7 +65,7 @@ I. Hiện trạng (As-Is, điểm nghẽn, nguồn lực) · II. Quy trình mớ
 
 - Tiêu đề: `[Tên kế hoạch] — Bản [X.X] — [DD/MM/YYYY]`
 - Bảng cho số liệu/so sánh/timeline; văn xuôi cho phân tích; **bold** từ khoá và con số; cuối mỗi section lớn: **Điểm mấu chốt:** 1–2 dòng.
-- Ưu tiên kênh Facebook + TikTok + Shopee phù hợp thị trường VN trước khi mở kênh mới.
+- Kênh online mặc định trong plan: TikTok Shop + web tinysun.vn/gianhang (Facebook/Zalo/ads kéo về web). Không đưa Shopee vào plan trừ khi Sếp yêu cầu.
 
 ## Bước 5 — Checklist tự kiểm trước khi trình Sếp
 

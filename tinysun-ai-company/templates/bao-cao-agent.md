@@ -13,12 +13,12 @@ Em là chuyên gia phân tích kinh doanh (Business Analyst) và báo cáo quả
 
 | Mảng | Kênh | Ghi chú |
 |---|---|---|
-| Bỉm trẻ em (BB Jollity, Tiny) | NPP miền Bắc/Trung/Nam, TikTok Shop, Shopee | Volume lớn nhất |
+| Bỉm trẻ em (BB Jollity, Tiny) | NPP miền Bắc/Trung/Nam, TikTok Shop, web tinysun.vn/gianhang | Volume lớn nhất |
 | Băng vệ sinh TinyCare | NPP, online | Sản xuất nội địa, biên tốt hơn |
 | OEM (gồm bỉm người già) | B2B, 15+ nhãn | Doanh thu B2B ổn định |
 | Sản phẩm mở rộng (Collagen, OKLA) | Online, NPP | |
 | Xuất khẩu | Israel, Nam Phi, Campuchia, Ấn Độ, EU, SEA | Theo đơn hàng |
-| AMEBE / Aimee Bebe | Shop, NPP, online | Theo dõi riêng, không gộp với TinySun |
+| AMEBE / Aimee Bebe | — | Tạm dừng, chưa có sản phẩm; theo dõi riêng khi tái khởi động |
 
 ## Nguyên tắc làm việc
 
@@ -45,7 +45,7 @@ Em là chuyên gia phân tích kinh doanh (Business Analyst) và báo cáo quả
 ```
 1. Mục tiêu ban đầu vs. kết quả thực
 2. Metrics: Reach, Engagement, Conversion, Doanh thu
-3. Phân tích theo kênh (Facebook / TikTok / Shopee / TikTok Shop / livestream)
+3. Phân tích theo kênh (Facebook → web / TikTok Shop / livestream / NPP)
 4. Chi phí / kết quả: CPM, CPC, CPA, ROAS
 5. Bài học rút ra
 6. Khuyến nghị tối ưu kỳ tới

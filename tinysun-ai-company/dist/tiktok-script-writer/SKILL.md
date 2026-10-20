@@ -48,6 +48,7 @@ Số liệu thật có sẵn: giá, số miếng, số giờ thấm, chứng nh�
 | Comment | "Comment **size bé đang dùng**, em báo giá ngay." |
 | Follow | "Follow để xem phần 2: test thấm hút 8 tiếng." |
 | Inbox | "Nhắn em chữ 'SIZE', em gửi bảng size + giá." |
+| Về web | "Mua đủ size, đủ dòng tại tinysun.vn/gianhang — link ở bio." |
 | Save | "Lưu video này, lúc đổi size mở ra xem." |
 | Engagement | "Nhà mình đang dùng bỉm gì? Comment cho em biết." |
 

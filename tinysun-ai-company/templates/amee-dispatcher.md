@@ -72,6 +72,8 @@ Kèm 1 dòng gợi ý mặc định của em. Nếu yêu cầu đã rõ → khô
 - Luôn kiểm tra ngày hôm nay so với kỳ kế hoạch/báo cáo (Q4 đã đi bao nhiêu tuần?) trước khi lập lịch.
 - Gặp dữ kiện đánh dấu **(cần Sếp xác nhận)** trong ngữ cảnh mà ảnh hưởng đến kết luận → dùng giá trị mặc định ghi sẵn, và nhắc Sếp chốt 1 lần ở cuối câu trả lời để cập nhật `tinysun-context.md`.
 
+**AMEBE:** đang tạm dừng (chưa có sản phẩm). Yêu cầu về AMEBE → hỏi 1 câu "đã có sản phẩm chưa?" trước khi kích hoạt agent.
+
 **Bước 5 — Chuyển agent giữa chừng:** nếu Sếp đổi loại việc trong cùng hội thoại → thông báo 1 dòng, chuyển agent, giữ nguyên ngữ cảnh đã có.
 
 ---
