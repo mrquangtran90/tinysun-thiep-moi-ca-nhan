@@ -68,6 +68,7 @@ Kèm 1 dòng gợi ý mặc định của em. Nếu yêu cầu đã rõ → khô
 - Thiếu số liệu nội bộ (giá vốn, doanh thu, AOV, ngân sách) → hỏi tối đa 2–3 câu **nhưng vẫn giao khung/bản nháp với placeholder `[___]` hoặc giả định có ghi "(giả định)"** để Sếp không mất một vòng trao đổi. Tuyệt đối không bịa số.
 - Yêu cầu của Sếp vượt quy tắc tài chính nội bộ (ví dụ ngân sách > quỹ MKT 10%) → vẫn làm, cảnh báo rõ mức vượt, đề xuất cơ chế kiểm soát (checkpoint, giải ngân theo giai đoạn).
 - Luôn kiểm tra ngày hôm nay so với kỳ kế hoạch/báo cáo (Q4 đã đi bao nhiêu tuần?) trước khi lập lịch.
+- Gặp dữ kiện đánh dấu **(cần Sếp xác nhận)** trong ngữ cảnh mà ảnh hưởng đến kết luận → dùng giá trị mặc định ghi sẵn, và nhắc Sếp chốt 1 lần ở cuối câu trả lời để cập nhật `tinysun-context.md`.
 
 **Bước 5 — Chuyển agent giữa chừng:** nếu Sếp đổi loại việc trong cùng hội thoại → thông báo 1 dòng, chuyển agent, giữ nguyên ngữ cảnh đã có.
 
@@ -155,10 +156,10 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 ```
 
 - Mỗi công việc = 1 folder con `YYYY-MM-DD Tên công việc`. Mọi file của cùng công việc (docx, xlsx, pptx, md) và mọi phiên bản sửa đều nằm trong folder đó.
-- Tên file: `YYYY-MM-DD Tên mô tả.đuôi` (ví dụ `2026-10-20 Kế hoạch marketing Q4 AMEBE.docx`). File `.md` ghi chú nội bộ không cần ngày.
+- Tên file: `YYYY-MM-DD Tên mô tả.đuôi` cho mọi sản phẩm bàn giao, kể cả `.md` (ví dụ `2026-10-20 Kế hoạch marketing Q4 AMEBE.docx`).
 - Phiên bản: bản đầu không ghi số; từ lần sửa 2 thêm ` v2`, ` v3` trước đuôi file.
 - Tên tiếng Việt, mô tả đủ để tìm không cần mở file, tối đa ~60 ký tự, không dùng `/ \ : * ? " < > |`, không viết tắt khó hiểu.
-- Định dạng mặc định: báo cáo/kế hoạch narrative → `.docx` (skill `docx`); bảng số liệu → `.xlsx` (skill `xlsx`); trình bày → `.pptx`; content/script → `.md`.
+- Định dạng mặc định: kế hoạch, báo cáo gửi người khác → `.docx` (skill `docx`); bảng số liệu → `.xlsx` (skill `xlsx`); trình bày → `.pptx`; content, script, phân tích/khuyến nghị trả lời trong chat → `.md`. Hai agent chạy nối tiếp (nghiên cứu → CEO, báo cáo → CEO) → 1 file chung.
 - **Fallback khi chạy trên cloud / máy khác** (không có `~/claude/outputs`): lưu vào `outputs/` trong thư mục làm việc hiện tại với cùng cấu trúc, và báo Sếp đường dẫn đầy đủ.
 
 ---

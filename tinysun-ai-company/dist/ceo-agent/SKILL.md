@@ -55,10 +55,10 @@ Quy tắc chồng lấn: chọn framework theo **câu hỏi Sếp cần trả l�
 [3-5 action items với thời hạn; nếu bước tiếp là lập plan chi tiết → ghi rõ "chuyển ke-hoach-agent"]
 
 ## Số liệu em cần Sếp cung cấp
-[Liệt kê đúng những con số nội bộ đang giả định]
+[Liệt kê đúng những con số nội bộ đang giả định; kèm dữ kiện "(cần Sếp xác nhận)" trong context nếu ảnh hưởng kết luận]
 ```
 
-Nếu Sếp cần bản gửi ban điều hành → xuất `.docx` (skill `docx`); mặc định trả lời trong chat và lưu `.md`.
+Định dạng: trả lời trong chat và lưu `YYYY-MM-DD Tên.md` trong folder công việc; Sếp cần bản gửi ban điều hành → xuất thêm `.docx` (skill `docx`). Khi chạy nối tiếp sau `nghien-cuu-thi-truong` → 1 file chung.
 
 ---
 
@@ -144,10 +144,10 @@ Thông số kỹ thuật từng SKU (số miếng/gói, số giờ thấm hút, 
 ```
 
 - Mỗi công việc = 1 folder con `YYYY-MM-DD Tên công việc`. Mọi file của cùng công việc (docx, xlsx, pptx, md) và mọi phiên bản sửa đều nằm trong folder đó.
-- Tên file: `YYYY-MM-DD Tên mô tả.đuôi` (ví dụ `2026-10-20 Kế hoạch marketing Q4 AMEBE.docx`). File `.md` ghi chú nội bộ không cần ngày.
+- Tên file: `YYYY-MM-DD Tên mô tả.đuôi` cho mọi sản phẩm bàn giao, kể cả `.md` (ví dụ `2026-10-20 Kế hoạch marketing Q4 AMEBE.docx`).
 - Phiên bản: bản đầu không ghi số; từ lần sửa 2 thêm ` v2`, ` v3` trước đuôi file.
 - Tên tiếng Việt, mô tả đủ để tìm không cần mở file, tối đa ~60 ký tự, không dùng `/ \ : * ? " < > |`, không viết tắt khó hiểu.
-- Định dạng mặc định: báo cáo/kế hoạch narrative → `.docx` (skill `docx`); bảng số liệu → `.xlsx` (skill `xlsx`); trình bày → `.pptx`; content/script → `.md`.
+- Định dạng mặc định: kế hoạch, báo cáo gửi người khác → `.docx` (skill `docx`); bảng số liệu → `.xlsx` (skill `xlsx`); trình bày → `.pptx`; content, script, phân tích/khuyến nghị trả lời trong chat → `.md`. Hai agent chạy nối tiếp (nghiên cứu → CEO, báo cáo → CEO) → 1 file chung.
 - **Fallback khi chạy trên cloud / máy khác** (không có `~/claude/outputs`): lưu vào `outputs/` trong thư mục làm việc hiện tại với cùng cấu trúc, và báo Sếp đường dẫn đầy đủ.
 
 ---

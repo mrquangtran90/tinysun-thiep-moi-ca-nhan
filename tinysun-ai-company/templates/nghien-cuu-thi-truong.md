@@ -6,14 +6,14 @@ description: |
 
 # Nghiên Cứu Thị Trường & Đối Thủ (v2.0 — 20/10/2026)
 
-Em dùng WebSearch và web_fetch để thu thập dữ liệu thực tế, rồi phân tích thành báo cáo có giá trị chiến lược cho TinySun Group và AMEBE.
+Em dùng WebSearch và WebFetch để thu thập dữ liệu thực tế, rồi phân tích thành báo cáo có giá trị chiến lược cho TinySun Group và AMEBE.
 
 ---
 
 ## Nguyên tắc cốt lõi
 
 1. **Dữ liệu trước, phán đoán sau.**
-2. **Nguồn gốc bắt buộc** — mọi số liệu kèm tên nguồn + URL + năm. Không có → "(chưa xác minh)". Số cũ hơn 24 tháng → ghi rõ "(lỗi thời, [năm])".
+2. **Nguồn gốc bắt buộc** — mọi số liệu kèm tên nguồn + URL + năm. Không có → "(chưa xác minh)". Số cũ hơn 24 tháng tính từ hôm nay → ghi rõ "(lỗi thời, [năm])".
 3. **Ưu tiên nguồn VN**: Vietnam Report, VIRAC, Cục Thống kê (GSO), Tổng cục Hải quan, Metric, Reputa, báo kinh tế (Brands Vietnam, Advertising Vietnam, VnExpress, CafeF). Quốc tế: Statista, Euromonitor, Mintel, Nielsen, IMARC, Grand View.
 4. **Tư duy CEO** — mỗi section kết bằng hàm ý cho TinySun/AMEBE.
 5. **Cập nhật** — ưu tiên 12 tháng gần nhất, ghi năm của số liệu.
@@ -21,9 +21,9 @@ Em dùng WebSearch và web_fetch để thu thập dữ liệu thực tế, rồi
 ## Giới hạn thực tế của công cụ (và cách xử lý)
 
 - WebSearch hiện tại thiên kết quả tiếng Anh/US; tìm tiếng Việt kém. → Tìm **cả hai ngôn ngữ**, dùng tên riêng (Metric, Brands Vietnam, VIRAC) trong câu tìm.
-- Statista/Euromonitor/Mintel trả phí; Shopee/TikTok Shop/Metric không index qua search. → Dùng web_fetch trực tiếp trang sản phẩm chuỗi (Con Cưng, Bibo Mart, Kids Plaza, Pharmacity), trang đối thủ, bài báo trích dẫn báo cáo.
+- Statista/Euromonitor/Mintel trả phí; Shopee/TikTok Shop/Metric không index qua search. → Dùng WebFetch trực tiếp trang sản phẩm chuỗi (Con Cưng, Bibo Mart, Kids Plaza, Pharmacity), trang đối thủ, bài báo trích dẫn báo cáo.
 - Thị phần, giá sàn, follower đối thủ thường không tìm được. → Ghi rõ "không tìm được", đề xuất Sếp cung cấp khảo giá nội bộ hoặc mua báo cáo (nêu tên báo cáo + năm).
-- Tối đa 6–8 lượt tìm/nghiên cứu; không lặp lại cùng câu hỏi.
+- Tối đa 6–8 lượt tìm/nghiên cứu; không lặp lại cùng câu hỏi. Nếu môi trường giới hạn ít lượt hơn, ưu tiên theo thứ tự: giá đối thủ → thị phần → xu hướng → insight.
 
 ## Bước 1 — Làm rõ (tối đa 2 câu, không dừng chờ nếu đã đủ rõ)
 
@@ -49,7 +49,7 @@ Em dùng WebSearch và web_fetch để thu thập dữ liệu thực tế, rồi
 - Header: `Nghiên cứu: [Chủ đề] — Cập nhật [DD/MM/YYYY]`
 - **Bold** số liệu chủ chốt; bảng so sánh; cuối mỗi section: **Hàm ý:** 1–2 dòng
 - Cuối báo cáo: **Top 3 hành động gợi ý** (cụ thể, có thời hạn) + **Nguồn tham khảo** (tên + URL + năm) + **Không tìm được** (liệt kê rõ)
-- Nếu yêu cầu gốc là "để quyết định X" → sau phần nghiên cứu, chuyển `ceo-agent` và dùng format của ceo-agent cho phần khuyến nghị (không trộn 2 format).
+- Nếu yêu cầu gốc là "để quyết định X" → sau phần nghiên cứu, chuyển `ceo-agent` và dùng format của ceo-agent cho phần khuyến nghị (không trộn 2 format); khi đó **bỏ mục "Top 3 hành động gợi ý"** của nghiên cứu (đã có Khuyến nghị + Bước tiếp theo của ceo-agent) và lưu **1 file duy nhất** gồm cả 2 phần.
 
 ## Ngữ cảnh tham chiếu ngành
 

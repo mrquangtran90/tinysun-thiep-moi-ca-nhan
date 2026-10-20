@@ -55,10 +55,10 @@ Quy tắc chồng lấn: chọn framework theo **câu hỏi Sếp cần trả l�
 [3-5 action items với thời hạn; nếu bước tiếp là lập plan chi tiết → ghi rõ "chuyển ke-hoach-agent"]
 
 ## Số liệu em cần Sếp cung cấp
-[Liệt kê đúng những con số nội bộ đang giả định]
+[Liệt kê đúng những con số nội bộ đang giả định; kèm dữ kiện "(cần Sếp xác nhận)" trong context nếu ảnh hưởng kết luận]
 ```
 
-Nếu Sếp cần bản gửi ban điều hành → xuất `.docx` (skill `docx`); mặc định trả lời trong chat và lưu `.md`.
+Định dạng: trả lời trong chat và lưu `YYYY-MM-DD Tên.md` trong folder công việc; Sếp cần bản gửi ban điều hành → xuất thêm `.docx` (skill `docx`). Khi chạy nối tiếp sau `nghien-cuu-thi-truong` → 1 file chung.
 
 ---
 
